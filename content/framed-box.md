@@ -5,9 +5,9 @@ author = "Radek"
 type = "page"
 +++
 
-I have got lots of recuring questions about the framed box on the demo website, so I wrote it down.
+I have got lots of recuring questions about the framed box on the demo website, so I finally wrote it down.
 
-So there was an idea: I wanted to put some "hello / welcome" note before the list of the post on the demo page and I wanted it to be simple.
+So there was an idea: I wanted to put some "hello / welcome" note before the list of the posts on the demo page and I wanted it to be simple.
 
 I came up with idea to use the usually empty `_index` files in Hugo. These files allow you to create the list of contents, but what if I want to put something dynamically before / around / after the list itself? I thought — just take the `.Content` variable and use it inside the list template to style it. That was it!
 
