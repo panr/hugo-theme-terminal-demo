@@ -1,0 +1,28 @@
+{
+  "comments": {
+    "dependencies": {
+      "yarn": "/Users/radek/Documents/Git/Moje/terminal-theme"
+    },
+    "devDependencies": {
+      "browserslist": "/Users/radek/Documents/Git/Moje/terminal-theme",
+      "clipboard": "/Users/radek/Documents/Git/Moje/terminal-theme",
+      "eslint-config-airbnb": "/Users/radek/Documents/Git/Moje/terminal-theme",
+      "eslint-config-prettier": "/Users/radek/Documents/Git/Moje/terminal-theme",
+      "eslint-plugin-jsx-a11y": "/Users/radek/Documents/Git/Moje/terminal-theme",
+      "husky": "/Users/radek/Documents/Git/Moje/terminal-theme"
+    }
+  },
+  "dependencies": {
+    "yarn": "^1.22.10"
+  },
+  "devDependencies": {
+    "browserslist": "^4.16.5",
+    "clipboard": "^2.0.4",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "husky": "^5.1.3"
+  },
+  "name": "terminal",
+  "version": "0.1.0"
+}
