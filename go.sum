@@ -6,3 +6,5 @@ github.com/panr/hugo-theme-terminal v0.0.0-20221121074827-007d7f3df65d h1:/jm7Yh
 github.com/panr/hugo-theme-terminal v0.0.0-20221121074827-007d7f3df65d/go.mod h1:rl66QefAPr/ZSyEFGqukIUV6S1TVjWSxAVpx/GHeJOs=
 github.com/panr/hugo-theme-terminal v0.0.0-20221209145414-1d7e65f42e01 h1:JDzkdGAOGuVjuxVXMchp/BC1c9EMob6TLFi9+OXCqpc=
 github.com/panr/hugo-theme-terminal v0.0.0-20221209145414-1d7e65f42e01/go.mod h1:rl66QefAPr/ZSyEFGqukIUV6S1TVjWSxAVpx/GHeJOs=
+github.com/panr/hugo-theme-terminal v0.0.0-20230102221952-20fc1079fa31 h1:3uJwHLbocHRY+Jsi6vgImICWTVaE0LU8v5IbqdZY4J8=
+github.com/panr/hugo-theme-terminal v0.0.0-20230102221952-20fc1079fa31/go.mod h1:rl66QefAPr/ZSyEFGqukIUV6S1TVjWSxAVpx/GHeJOs=
