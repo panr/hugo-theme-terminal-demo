@@ -1,10 +1,2 @@
-github.com/panr/hugo-theme-terminal v0.0.0-20221108073436-b931e14ece7f h1:TJNUByqayq9gi1qyedt2fxYXPlbl93TJAgYqMGjOPIE=
-github.com/panr/hugo-theme-terminal v0.0.0-20221108073436-b931e14ece7f/go.mod h1:rl66QefAPr/ZSyEFGqukIUV6S1TVjWSxAVpx/GHeJOs=
-github.com/panr/hugo-theme-terminal v0.0.0-20221113223626-0b5cc9b75f6b h1:4EFV73W+FxE4kObYaMwRXN1/3w/w8GjRnAFBcSXgu+o=
-github.com/panr/hugo-theme-terminal v0.0.0-20221113223626-0b5cc9b75f6b/go.mod h1:rl66QefAPr/ZSyEFGqukIUV6S1TVjWSxAVpx/GHeJOs=
-github.com/panr/hugo-theme-terminal v0.0.0-20221121074827-007d7f3df65d h1:/jm7YhKBSXTmPHPHWUjB8XP5SAmECva/dY6WFvPrEoc=
-github.com/panr/hugo-theme-terminal v0.0.0-20221121074827-007d7f3df65d/go.mod h1:rl66QefAPr/ZSyEFGqukIUV6S1TVjWSxAVpx/GHeJOs=
-github.com/panr/hugo-theme-terminal v0.0.0-20221209145414-1d7e65f42e01 h1:JDzkdGAOGuVjuxVXMchp/BC1c9EMob6TLFi9+OXCqpc=
-github.com/panr/hugo-theme-terminal v0.0.0-20221209145414-1d7e65f42e01/go.mod h1:rl66QefAPr/ZSyEFGqukIUV6S1TVjWSxAVpx/GHeJOs=
-github.com/panr/hugo-theme-terminal v0.0.0-20230102221952-20fc1079fa31 h1:3uJwHLbocHRY+Jsi6vgImICWTVaE0LU8v5IbqdZY4J8=
-github.com/panr/hugo-theme-terminal v0.0.0-20230102221952-20fc1079fa31/go.mod h1:rl66QefAPr/ZSyEFGqukIUV6S1TVjWSxAVpx/GHeJOs=
+github.com/panr/hugo-theme-terminal/v3 v3.1.2 h1:DZXzAabj8zG/9k6kSE9uQLtJUoPGA5KiSeiBbni3oHM=
+github.com/panr/hugo-theme-terminal/v3 v3.1.2/go.mod h1:Cs+1ub6qhz/G43ohdRSR1U2qNqGLO9h0qgTG4Jq9Wo4=
