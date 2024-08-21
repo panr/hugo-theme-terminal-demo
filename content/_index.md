@@ -1,10 +1,12 @@
 +++
-author = "Hugo Authors"
+author = "Radek"
 framed = true
 +++
 
 # Hello there!
 
-Welcome in demo of the `Terminal` theme. Please, look around and check whether this is what you are looking for.
+My name is Radek and I’m the author of this theme. I made it to help you present your ideas easier.
 
-In case you wonder how to re-create this box on your website, please check [this article](/framed-box).
+If you want to change the default color scheme, please visit [terminal.css](https://panr.github.io/terminal-css/) and generate your own.
+
+[![Terminal.css Preview](/img/terminal-css.png)](https://panr.github.io/terminal-css/)

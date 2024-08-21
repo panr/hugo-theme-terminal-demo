@@ -1,19 +1,8 @@
 +++
-author = "Hugo Authors"
-title = "Markdown Syntax Guide"
+author = "Hugo Authors & Radek"
+title = "Showcase"
 date = "2019-03-11"
-description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
-tags = [
-    "markdown",
-    "css",
-    "html",
-]
-categories = [
-    "themes",
-    "syntax",
-]
-series = ["Themes Guide"]
-aliases = ["migrate-from-jekyl"]
+description = "Sample article showcasing basic styling and formatting for HTML elements."
 +++
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
@@ -26,9 +15,9 @@ The following HTML `<h1>`—`<h6>` elements represent six levels of section head
 # H1
 ## H2
 ### H3
-#### H4
-##### H5
-###### H6
+### H4
+#### H5
+##### H6
 
 ## Paragraph
 
@@ -36,21 +25,35 @@ Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptio
 
 Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
 
+## Images
+
+![Terminal Theme Preview](/img/terminal-theme.png)
+
+### Figure with a caption
+
+{{< figure src="/img/terminal-theme.png" alt="Terminal Theme Preview" position="center" caption="Terminal Theme Preview" captionPosition="center" >}}
+
 ## Blockquotes
 
 The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
 
-#### Blockquote without attribution
+### Blockquote without attribution
 
 > Tiam, ad mint andaepu dandae nostion secatur sequo quae.
 > **Note** that you can use *Markdown syntax* within a blockquote.
 
-#### Blockquote with attribution
+### Blockquote with attribution
 
 > Don't communicate by sharing memory, share memory by communicating.<br>
 > — <cite>Rob Pike[^1]</cite>
 
 [^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
+
+## Buttons and links
+
+<button>Button</button>
+<a href="">Link</a>
+<a href="" class="button inline">Link</a>
 
 ## Tables
 
@@ -61,15 +64,31 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
     Bob | 27
   Alice | 23
 
-#### Inline Markdown within tables
+### Inline Markdown within tables
 
 | Italics   | Bold     | Code   |
 | --------  | -------- | ------ |
 | *italics* | **bold** | `code` |
 
+## Forms
+
+<fieldset>
+  <input type="text" placeholder="Type something" /><br />
+  <input type="number" placeholder="Insert number" /><br />
+  <input type="text" value="Input value" /><br />
+  <select>
+    <option value="1">Option 1</option>
+    <option value="2">Option 2</option>
+    <option value="3">Option 3</option>
+  </select><br />
+  <textarea placeholder="Insert a comment..."></textarea><br />
+  <input type="checkbox" /> I understand<br />
+  <button type="submi">Submit</button>
+</fieldset>
+
 ## Code Blocks
 
-#### Code block with backticks
+### Code block with backticks
 
 ```html
 <!doctype html>
@@ -84,7 +103,7 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
 </html>
 ```
 
-#### Code block indented with four spaces
+### Code block indented with four spaces
 
     <!doctype html>
     <html lang="en">
@@ -97,7 +116,8 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
     </body>
     </html>
 
-#### Code block with Hugo's internal highlight shortcode
+### Code block with Hugo's internal highlight shortcode
+
 {{< highlight html >}}
 <!doctype html>
 <html lang="en">
@@ -111,21 +131,45 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
 </html>
 {{< /highlight >}}
 
+### Code block with custom built-in `{{ < code > }}` shortcode
+
+{{< code title="Hey, this is a code block title" language="css" >}}
+pre {
+  background: #1a1a1d;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  overflow: auto;
+
+  @media (--phone) {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  code {
+    background: none !important;
+    color: #ccc;
+    padding: 0;
+    font-size: inherit;
+  }
+}
+{{< /code >}}
+
 ## List Types
 
-#### Ordered List
+### Ordered List
 
 1. First item
 2. Second item
 3. Third item
 
-#### Unordered List
+### Unordered List
 
 * List item
 * Another item
 * And another item
 
-#### Nested list
+### Nested list
 
 * Fruit
   * Apple
@@ -143,6 +187,6 @@ H<sub>2</sub>O
 
 X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
 
-Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
+Press <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd> to end the session.
 
 Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.

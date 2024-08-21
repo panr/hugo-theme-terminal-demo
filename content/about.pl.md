@@ -1,22 +1,22 @@
 +++
-title = "About"
+title = "O motywie"
 date = "2019-01-25"
 author = "Radek"
 type = "page"
 +++
 
-# Hi there
+# Witaj
 
-My name is Radek and I'm the author of this theme. I made it to help you present your ideas easier.
+Mam na imię Radek i jestem autorem tego motywu. Zrobiłem go, aby usprawnić Ci proces publikacji swoich pomysłow.
 
-We all know how hard is to start something on the web, especially these days. You need to prepare a bunch of stuff, configure them and when that’s done — create the content.
+Wszyscy wiemy jak trudne i skomplikowane stało się budowanie nawet najprostszych rzeczy obecnie w internecie. Musisz przygotować i skonfigurować masę różnych narzedzi, zanim będziesz mógł stworzyć coś własnego.
 
-This theme is pretty basic and covers all of the essentials. All you have to do is start typing!
+Ten motyw jest bardzo prosty, ale obsługuje podstawowe rzeczy dostarczane przez Hugo. Jedyne co musisz zrobić, to tylko zaczać pisać!
 
-The theme includes:
+Motyw zawiera:
 
-- **light/dark mode**, depending on your preferences
-- great reading experience thanks to [**Inter font**](https://rsms.me/inter/), made by [Rasmus Andersson](https://rsms.me/about/)
-- nice code highlighting thanks to [**PrismJS**](https://prismjs.com)
+- w pełni konfigurowalne środowisko kolorystyczne generowane przy pomocy [**terminal.css**](https://panr.github.io/terminal-css/).
+- doskonałe warunki do czytania dzięki [**Fira Code**](https://github.com/tonsky/FiraCode).
+- miłe dla oka i przydatne kolorowanie składni kodu [**PrismJS**](https://prismjs.com), które automatycznie dostosowuje się do wybranego przez Ciebie schematu kolorów.
 
-So, there you have it... enjoy!
+I to wszystko, powodzenia!
