@@ -27,11 +27,11 @@ Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sap
 
 ## Images
 
-![Terminal Theme Preview](/img/terminal-theme.png)
+![Terminal Theme Preview](https://github.com/panr/hugo-theme-terminal/blob/master/images/terminal-theme.png?raw=true)
 
 ### Figure with a caption
 
-{{< figure src="/img/terminal-theme.png" alt="Terminal Theme Preview" position="center" caption="Terminal Theme Preview" captionPosition="center" >}}
+{{< figure src="https://github.com/panr/hugo-theme-terminal/blob/master/images/terminal-theme.png?raw=true" alt="Terminal Theme Preview" position="center" caption="Terminal Theme Preview" captionPosition="center" >}}
 
 ## Blockquotes
 
