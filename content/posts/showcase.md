@@ -82,7 +82,7 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
     <option value="3">Option 3</option>
   </select><br />
   <textarea placeholder="Insert a comment..."></textarea><br />
-  <input type="checkbox" /> I understand<br />
+  <label><input type="checkbox" /> I understand<br /></label>
   <button type="submi">Submit</button>
 </fieldset>
 

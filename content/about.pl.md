@@ -5,7 +5,7 @@ author = "Radek"
 type = "page"
 +++
 
-# Witaj
+## Witaj
 
 Mam na imię Radek i jestem autorem tego motywu. Zrobiłem go, aby usprawnić Ci proces publikacji swoich pomysłow.
 
