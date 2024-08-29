@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://panr.github.io/hugo-theme-terminal-demo/"
 languageCode = "en-us"
 paginate = 5
 # theme = "terminal"
