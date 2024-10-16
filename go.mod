@@ -1,5 +1,5 @@
 module terminal
 
-go 1.19
+go 1.23
 
-require github.com/panr/hugo-theme-terminal/v4 v4.0.8 // indirect
+require github.com/panr/hugo-theme-terminal/v4 v4.0.9 // indirect
